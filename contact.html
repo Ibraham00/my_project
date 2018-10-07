@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='UTF-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="project.css" rel="stylesheet" />
+    <script src="project.js"></script>
+    <title> Contact </title>
+</head>
+<body>    
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li class="nav-list"><a href="index.html">Home</a></li>
+                <li class="nav-list"><a href="news.html">News</a></li>
+                <li class="nav-list"><a href="contact.html">Contact</a></li>
+                <li class="nav-list"><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="home-page" class="container-fluid">
+        <div><h1 style="font-size:5vw"> Contact </h1></div>
+        <hr>
+        <div id="contact_us">
+            <h3>Send me a message</h3>
+            <p>
+                Name<span class="red">*</span><br />
+                    <input type="text" id="your-name" name="your-name" value="" size="40" class="input" />
+            </p>
+            <p>
+                Email<span class="red">*</span><br />
+                    <input type="email" id="your-email" name="your-email" value="" size="40" class="input" >
+            </p>
+            <p>
+                Message<span class="red">*</span><br />
+                    <textarea id="your-message" name="your-message" cols="40" rows="10" class="input"></textarea>
+            </p>
+            <p>
+                <input type="button" value="Submit" id="submit_btn" onclick="validateAndSubmitForm();" />
+            </p>
+        </div>
+        <br>
+        <hr>
+        <div style="margin:0 auto;"><h6>Coded by <a href="#" style="color:rgb(80, 102, 32)">Ibraham</a></h6></div>
+    </div>
+    <footer>
+        <p>Posted in: 04 Aug 2018</p>
+        <address>
+            Contact me: <a href="mailto:ibrahim00800@hotmail.com">
+                ibrahim00800@hotmail.com
+            </a>.
+        </address>
+
+    </footer>
+</body>
+
+</html>
+

@@ -1,0 +1,139 @@
+html {
+  background: url(http://blog.hostbaby.com/wp-content/uploads/2012/05/thumbnail_abstract.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+body {
+  width: 750px;
+  background-color: #fff2e6;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+div {
+  margin: 30px auto; 
+}
+
+h1 {
+  font-family: Lucida, sans-serif;
+  font-size: 1rem;
+  color: rgb(80, 42, 67);
+  text-shadow: 3px 3px #EAE8EA;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #385836;
+  margin-left: 50px;
+}
+
+li {
+  font-family: Helvetica Narrow, sans-serif;
+}
+
+h6 {
+  text-align: center;
+}
+
+#wiki-link {
+  background-color: rgb(152, 97, 88);
+  color: #E8D1F4;
+  padding: 10px 133px 10px 133px;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  border-top: dotted;
+  border-bottom: dotted;
+}
+
+.img-thumbnail {
+  height: auto;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.nav-list {
+  display: inline;
+  font-size: 1.2rem;
+  float: left;
+}
+
+.nav-list a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  background-color: #ffa64d;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+#contact_us {
+  margin: 15px 2px 15px 2px;
+	padding: 5px;
+	border-radius: 10px 10px 10px 10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #A9A1A1; 
+	background-color: gray;
+	color: #FFF;
+}
+
+.input {
+  border: 1px solid #e1e1e1;
+	background-color: #fcfcfc;
+	color: #919191;
+	border-radius: 3px;
+	width: 85%;
+	padding: 8px 6px;
+}
+
+.red {
+  color: red;
+}
+
+.news{
+  border: 2px solid #e1e1e1;
+  margin: 5px;
+  padding: 5px;
+  width: 90%;
+	background-color: #fcfcfc;
+	border-radius: 5px;
+  clear: both;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+   width: 400px;
+    }
+}
